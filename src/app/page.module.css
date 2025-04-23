@@ -1,0 +1,123 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
+  color: #2c3e50;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.create-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rule-selector-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 20px;
+  margin-top: 10px;
+  height: 480px;
+  width: 500px;
+  border: 2px solid #2c3e50;
+  border-radius: 16px;
+}
+
+.rule-selector-form-header {
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.rule-selector-container {
+  margin: 10px 20px;
+}
+
+.dispatch-checkbox {
+  margin-right: 8px;
+}
+
+.display-checkbox-label {
+  margin-right: 8px;
+}
+
+.rule-selector-radio {
+  margin-right: 8px;
+}
+
+.rule-selector-datetime-input {
+  display: inline-block;
+  margin-right: 8px;
+  height: 22px;
+}
+
+.rule-label {
+  margin-right: 8px;
+}
+
+.rule-selector-select {
+  display: inline-block;
+  margin-right: 8px;
+  height: 22px;
+}
+
+.create-textarea-label {
+  display: block;
+  margin: 10px 40px;
+}
+
+.create-schedule-textarea {
+  display: inline-block;
+  font-size: 14px;
+  width: 80%;
+  height: 160px;
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin: 0 auto;
+}
+
+.submit-err-msg {
+  color: red;
+  font-size: 16px;
+  margin-top: 16px;
+  margin: 16px auto 0 auto;
+}
+
+.rule-submit-button {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 12px auto;
+  width: 70px;
+  height: 36px;
+  background-color:white;
+  border: 1px solid #2c3e50;
+  border-radius: 18px;
+  color: #2c3e50;
+  transition: .2s;
+}
+
+.rule-submit-button:hover {
+  font-weight: bold;
+  background-color: #2c3e50;
+  color: white;
+}
+
+
+.schedule-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.schedule-list-header {
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+}
